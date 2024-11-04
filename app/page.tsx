@@ -14,7 +14,7 @@ export default function Home() {
                 <h1 className="capitalize text-4xl md:text-7xl font-bold"> Job <span className="text-primary">Tracking</span> App</h1>
                 <p className="leading-loose max-w-md mt-4">
                 Welcome to the 1st application for tracking job offers. This application gives you an overview of the offers you have applied for.
-                Welcome to the 1st application for tracking job offers. This application gives you an overview of the offers you have applied for.
+                this application has been designed with the problems you may encounter when looking for a job in mind.         
                 </p>
                 <Button asChild className="mt-4">
                     <Link href="/add-job">Get Started</Link>
