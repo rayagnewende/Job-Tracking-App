@@ -10,7 +10,7 @@ const layout = ({children}:PropsWithChildren) => {
          </div>
          <div className="lg:col-span-4">
           <Navbar />
-          { children }
+         <div className="py-16 px-4 sm:px-8 lg:px-16">{ children }</div>
          </div>
     </main>
   )
